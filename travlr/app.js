@@ -8,6 +8,7 @@ var indexRouter = require('./app_server/routes/index');
 var usersRouter = require('./app_server/routes/users');
 var travelRouter = require('./app_server/routes/travel')
 var handlebars = require('hbs');
+const { travel } = require('./app_server/controllers/travel');
 var app = express();
 
 // view engine setup
